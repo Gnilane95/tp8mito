@@ -1,0 +1,75 @@
+@import"reset.css";
+html{
+    scroll-behavior: smooth;
+}
+/* bg primaire */
+.bg-primary{
+    background-color: #B4cfb0;
+}
+/* font nunito */
+.font-nunito{
+    font-family: 'Nunito', sans-serif;
+}
+/* helpers */
+.alignement{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.cadre{
+    box-shadow: 5px 5px 5px rgb(24, 23, 23);
+    padding: 1.5em;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+}
+.f-reverse{
+    flex-direction: row-reverse;
+}
+.py-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.bg-section{
+    background-color: #f2f8f2;
+}
+.text-center{
+    text-align: center;
+}
+/* header */
+header{
+    padding: 15px ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-header__nav{
+    display: flex;
+    gap: 20px;
+}
+header a{
+    color: #fff;
+}
+.wrapper-header__logo{
+    border: 5px #fff solid;
+    border-radius: 0 15px;
+    font-weight: 900;
+    padding: 0 5px;
+    box-shadow: 10px 5px 5px gray;
+}
+.wrapper-header__logo__mi_color{
+    color: red;
+}
+.wrapper-header__logo__point_color-size{
+    color: red;
+    font-size: 30px;
+}
+/* hero */
+.wrapper-header__hero{
+    background-image: url("https://images.unsplash.com/photo-1576398289164-c48dc021b4e1");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
