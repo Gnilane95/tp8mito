@@ -1,1 +1,65 @@
 @import"header.css";
+@import"reset.css";
+.wrapper-products{
+    display: flex;
+}
+.img-légumes{
+    width: 400px;
+    height: 250px;
+    box-shadow: 5px 5px 5px #808080;
+    border-radius: 5%;
+}
+.wrapper-main__h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.wrapper-products__sections{
+    display: flex;
+    align-items: center;
+    margin: 0 300px;
+    gap: 70px;
+    text-align: justify;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.align a{
+    padding: 3%;
+    border: none;
+    width: 150px;
+    background-color: #f2f8f2;
+    box-shadow: 5px 5px 5px #808080;
+}
+.fa-solid{
+    padding: 0 5%;
+    color: #f00;
+}
+.align p {
+    background-color: #f2f8f2;
+    padding: 3%;
+    box-shadow: 5px 5px 5px #808080;
+    color: #f00;
+    font-weight: 600;
+}
+.img-fruits{
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 2px #f2f8f2;
+    box-shadow: 5px 5px 5px #808080;
+    border-radius: 5%;
+}
+.section2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img-saison{
+    width: 300px;
+    height: 250px;
+    box-shadow: 2px 2px 2px #f2f8f2;
+    box-shadow: 5px 5px 5px #808080;
+    border-radius: 5%;
+}
