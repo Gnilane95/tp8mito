@@ -1,0 +1,16 @@
+@import"header.css";
+.wrapper-main__formulaire{
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   flex-direction: column;
+   padding-top: 2%;
+   padding-left: 40%;
+   padding-right: 30%;
+}
+.wrapper-main__formulaire__label{
+    padding-bottom: 2%;
+}
+input,textarea{
+    display: block;
+}

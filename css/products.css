@@ -3,49 +3,70 @@
 .wrapper-products{
     display: flex;
 }
-.img-légumes{
-    width: 400px;
-    height: 250px;
+.img-fruits{
+    width: 100px;
+    height: 140px;
     box-shadow: 5px 5px 5px #808080;
-    border-radius: 5%;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
 }
-.wrapper-main__h2{
-    text-align: center;
-    font-size: 45px;
-    font-weight: 700;
-    padding-bottom: 20px;
+.wrapper-main__h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(196, 17, 17);
+    padding-bottom: 2%;
 }
 .wrapper-products__sections{
     display: flex;
-    align-items: center;
-    margin: 0 300px;
-    gap: 70px;
+    gap: 2%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+.wrapper-products__sections__card1{
+    display: flex;
+    gap: 10px;
     text-align: justify;
+    width: 40%;
+    height: 142px;
+    /* background-color: #f0f0f0; */
+    border-radius: 8%;
+    box-shadow: 5px 5px 5px #808080;
+}
+
+.wrapper-products__sections__texte{
+    /* padding: 2%; */
+    padding: 2%;
+
 }
 .align{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .align a{
     padding: 3%;
+    text-align: center;
     border: none;
-    width: 150px;
-    background-color: #f2f8f2;
+    width: 120px;
+    height: 35px;
+    /* background-color: #f2f8f2; */
     box-shadow: 5px 5px 5px #808080;
+    border-radius: 15%;
 }
 .fa-solid{
     padding: 0 5%;
     color: #f00;
 }
-.align p {
-    background-color: #f2f8f2;
+.prix {
+    /* background-color: #f2f8f2; */
     padding: 3%;
-    box-shadow: 5px 5px 5px #808080;
+    /* box-shadow: 5px 5px 5px #808080; */
     color: #f00;
     font-weight: 600;
+    font-size: 20px;
 }
-.img-fruits{
+/* .img-fruits{
     width: 300px;
     height: 400px;
     box-shadow: 2px 2px 2px #f2f8f2;
@@ -62,4 +83,4 @@
     box-shadow: 2px 2px 2px #f2f8f2;
     box-shadow: 5px 5px 5px #808080;
     border-radius: 5%;
-}
+} */

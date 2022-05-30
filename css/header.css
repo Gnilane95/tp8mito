@@ -2,6 +2,13 @@
 html{
     scroll-behavior: smooth;
 }
+h1{
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    z-index: 100;
+}
 /* bg primaire */
 .bg-primary{
     background-color: #B4cfb0;
@@ -11,12 +18,21 @@ html{
     font-family: 'Nunito', sans-serif;
 }
 /* helpers */
+.wrapper-main__h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+}
 .alignement{
     display: flex;
     gap: 100px;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+}
+.container{
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .cadre{
     box-shadow: 5px 5px 5px rgb(24, 23, 23);
@@ -48,6 +64,7 @@ header{
 .wrapper-header__nav{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 header a{
     color: #fff;
@@ -69,7 +86,33 @@ header a{
 /* hero */
 .wrapper-header__hero{
     background-image: url("https://images.unsplash.com/photo-1576398289164-c48dc021b4e1");
-    height: 50vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.wrapper-header__hero span{
+    color: rgb(255, 0, 0);
+}
+.hero{
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    /* background-color: #000; */
+    background: linear-gradient(90deg, rgba(125,110,20,1) 0%, rgba(9,124,53,1) 46%, rgba(0,212,255,1) 100%);
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 0; */
+}
+/* footer */
+footer{
+    padding: 30px ;
+    color: white;
 }

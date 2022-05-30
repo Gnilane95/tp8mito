@@ -1,0 +1,5 @@
+@import"header.css";
+.wrapper-main__text{
+    padding-top: 2%;
+    text-align: justify;
+}

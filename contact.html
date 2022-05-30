@@ -4,10 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- link css -->
     <link rel="stylesheet" href="css/contact.css">
+    <!-- fonts google -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Contact</title>
 </head>
 <body>
     <h1></h1>
+    <!-- wrapper header -->
+    <div class="wrapper-header">
+        <!-- header -->
+        <header class="container bg-primary">
+            <!-- logo -->
+            <div class="wrapper-header__logo font-nunito">
+                <a href="/"><span class="wrapper-header__logo__mi_color">mi</span>TO<span class="wrapper-header__logo__point_color-size">.</span></a>
+            </div>
+            <!-- navigation -->
+            <nav class="wrapper-header__nav">
+                <a href="/">Accueil</a>
+                <a href="/produits.html">Produits</a>
+                <a href="/a-propos.html">A propos</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+        </header>
+        <!-- end header -->
+        <!-- hero -->
+        <div class="wrapper-header__hero">
+            <p></p>
+        </div>
+        <!-- end hero -->
+    </div>
+    <!-- end wrapper -->
+    <!-- main -->
+    <section class="py-section container">
+        <h2 class="wrapper-main__h2 font-nunito">À propos de nous</h2>
+        <form action="" class="wrapper-main__formulaire">
+            <div class="wrapper-main__formulaire__label">
+                <label for="name" class="label">Prénoms et Nom</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="wrapper-main__formulaire__label">
+                <label for="email" class="label">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="mami@gmail.com" required>
+            </div>
+            <div class="wrapper-main__formulaire__label">
+                <label for="description" class="label">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="wrapper-main__formulaire__label">
+            <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </section>
+    <!-- end main -->
+    <!-- footer -->
+    <footer class="container bg-primary">
+        <p>Footer</p>
+    </footer>
+<!-- end footer -->
 </body>
 </html>
